@@ -7,6 +7,6 @@ print("The area is ")
 square_feet = length * width
 print(f"{square_feet} square feet")
 
-meter_per_feet = 0.09290304
-square_meter = round(square_feet * meter_per_feet, 3)
+METER_PER_FEET = 0.09290304
+square_meter = round(square_feet * METER_PER_FEET, 3)
 print(f"{square_meter} square meters")
