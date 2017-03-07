@@ -5,18 +5,18 @@ def input_height():
     try:
         return int(input("height: "))
     except:
-        input_height()
+        return input_height()
 
 
 def input_weight():
     try:
         return int(input("weight: "))
     except:
-        input_weight()
+        return input_weight()
 
 
-height= input_height()
-weight= input_weight()
+height = input_height()
+weight = input_weight()
 
 bmi = (weight/(height*height))*703
 
